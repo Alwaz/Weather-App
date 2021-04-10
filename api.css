@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1550507894-975103845538?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 14px;
+    background: rgb(234 234 234);
+    background: #000000d0;
+    color: white;
+}
+
+.input > input {
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 18px;
+    color: rgb(255 255 255);
+    background: #7c7c7c2b;
+    font-family: 'Raleway', sans-serif;
+}
+
+button.button {
+    border: none;
+    width: 29px;
+    padding: 6px;
+    border-radius: 20px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    transition: (.5s);
+}
+
+button.button:focus{
+    outline:none;
+}
+
+button.button:hover{
+    border: 1px solid rgb(122, 112, 112) 
+}
+
+.displayWeather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
